@@ -40,7 +40,6 @@ class ApplicationController < Sinatra::Base
 			redirect "/failure"
 		end
 	end
-	end
 
 	get "/success" do
 		if logged_in?
